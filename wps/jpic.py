@@ -218,7 +218,7 @@ jpic2="""
 # In[183]:
 
 
-with open("sontest.html", "w", encoding="utf-8") as file:
+with open("jpic.html", "w", encoding="utf-8") as file:
     print(jpic1, file=file, flush=True)
     print('<center><strong>'+a + '</strong><br><br></center>',file=file, flush=True)
     for ind in df.index:

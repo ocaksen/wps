@@ -159,13 +159,13 @@ jpg1="""
         <h1><a href="http://worldpediatricsociety.org/jpg/index.html" id="logo">World Pediatric Society</a></h1>
         <nav>
           <ul id="menu">
-            <li><a href="http://worldpediatricsociety.org/jpg/index.html">Home</a></li>
+            <li id="menu_active"><a href="http://worldpediatricsociety.org/jpg/index.html">Home</a></li>
             <li><a href="about.html">About </a></li>
             <li><a href="associations.html">Associations</a></li>
             <li><a href="editors.html">Editors</a></li>
             <li><a href="editorial.html">Editorial Board</a></li>
             <li><a href="http://www.thieme.com/media/ita/JPG_Author_instructions.pdf"target="_blank">Instructions</a></li>
-            <li id="menu_active"><a href="archives.html">Archives</a></li>
+            <li><a href="archives.html">Archives</a></li>
             <li><a href="subscription.html">Subscription</a></li>
             <li><a href="http://www.thieme.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=1697&category_id=1&keyword=Journal+of+Pediatric+Genetics&option=com_virtuemart&Itemid=53">THIEME PUBLISHERS</a></li>
             <li><a href="contacts.html">Contact</a></li>

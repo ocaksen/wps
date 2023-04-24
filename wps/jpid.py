@@ -146,7 +146,34 @@ jpid1="""
 <script type="text/javascript" src="js/backgroundPosition.js"></script>
 <script type="text/javascript" src="js/atooltip.jquery.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-
+<body id="page1">
+<div class="body1">
+  <div class="main">
+    <!-- header -->
+    <header>
+      <div class="wrapper">
+        <h1><a href="http://worldpediatricsociety.org/jpid/index.html" id="logo">World Society of Child Science</a></h1>
+        <nav>
+          <ul id="menu">
+            <li id="menu_active"><a href="http://worldpediatricsociety.org/jpid/index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="associations.html">Associations</a></li>
+            <li><a href="editors.html">Editors</a></li>
+            <li><a href="editorial.html">Editorial Board</a></li>
+            <li><a href="http://www.thieme.com/media/ita/JPID_Author_instructions.pdf"target="_blank">Instructions</a></li>
+            <li><a href="archives.html">Archives</a></li>
+            <li><a href="subscription.html">Subscription</a></li>
+            <li><a href="http://www.thieme.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=1698&category_id=1&keyword=Journal+of+Pediatric+Infectious+Diseases&option=com_virtuemart&Itemid=53">THIEME PUBLISHERS</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+     </header>
+    <!-- / header -->
+    <!-- content -->
+    <article id="content">
+      <div class="wrapper">
+        <div class="box1">
 """
 
 
@@ -163,59 +190,83 @@ jpid1="""
 
 
 jpid2="""
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Journal of Pediatric Infectious Diseases</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/stylejpb.css" type="text/css" media="all">
-<script type="text/javascript" src="js/jquery-1.6.js"></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-replace.js"></script>
-<script type="text/javascript" src="js/Vegur_700.font.js"></script>
-<script type="text/javascript" src="js/Vegur_400.font.js"></script>
-<script type="text/javascript" src="js/Vegur_300.font.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/tms-0.3.js"></script>
-<script type="text/javascript" src="js/tms_presets.js"></script>
-<script type="text/javascript" src="js/backgroundPosition.js"></script>
-<script type="text/javascript" src="js/atooltip.jquery.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<!--[if lt IE 9]>
-<script type="text/javascript" src="js/html5.js"></script>
-<style type="text/css">.box1 figure{behavior:url("js/PIE.htc");}</style>
-<![endif]-->
-</head>
-# <body id="page1">
-# <div class="body1">
-  # <div class="main">
-    # <!-- header -->
-    # # <header>
-      # # <div class="wrapper">
-        # # <h1><a href="http://worldpediatricsociety.org/jpid/index.html" id="logo">World Pediatric Society </a></h1>
-        # # <nav>
-          # # <ul id="menu">
-            # # <li id="menu_active"><a href="http://worldpediatricsociety.org/jpid/index.html">Home</a></li>
-            # # <li><a href="about.html">About Journal</a></li>
-            # # <li><a href="associations.html">Associations</a></li>
-            # # <li><a href="editors.html">Editors</a></li>
-            # # <li><a href="editorial.html">Editorial Board</a></li>
-            # # <li><a href="http://www.thieme.com/media/ita/JPID_Author_instructions.pdf"target="_blank">Instructions</a></li>
-            # # <li><a href="archives.html">Archives</a></li>
-            # # <li><a href="subscription.html">Subscription</a></li>
-            # # <li><a href="http://iospress.metapress.com">IOS Press</a></li>
-            # # <li><a href="contacts.html">Contacts</a></li>
-          # # </ul>
-        # # </nav>
-      # # </div>
-     # # </header>
-    # <!-- / header -->
-    # <!-- content -->
-    # <article id="content">
-      # <div class="wrapper">
-        # <div class="box1">
+
+         </ul><br>
+         <br>
+         
+          </div>
+      </div>
+      <div class="wrapper">
+        <h3></h3>
+      </div>
+    </article>
+    <!-- / content -->
+    <!-- footer -->
+    <footer>
+      <div class="wrapper"> <a href="http://worldpediatricsociety.org/jpid/index.html" id="footer_logo"><span>J Pediatr Infect Dis</span></a>
+      <div class="tel"><span>jpid</span>@erbakan.edu.tr</div>
+      </div>
+      <div class="wrapper"> ISSN: 1305-7707 print, ISSN: 1305-7693 online
+      <ul id="icons">
+          <li><a href="https://facebook.com/worldpediatricsociety" class="normaltip"><img src="../images/icon1.gif" alt=""></a></li>
+          <li><a href="https://twitter.com/worldpediatricsociety" class="normaltip"><img src="../images/icon2.gif" alt=""></a></li>
+        </ul>
+      </div>
+      <div id="footer_text">Copyright &copy; <a href="#">World Pediatric Society </a> All Rights Reserved<br>
+    </footer>
+    <!-- / footer -->
+  </div>
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(window).load(function () {
+    $('.slider')._TMS({
+        preset: 'zabor',
+        easing: 'easeOutQuad',
+        duration: 800,
+        pagination: true,
+        banners: true,
+        waitBannerAnimation: false,
+        slideshow: 6000,
+        bannerShow: function (banner) {
+            banner.css({
+                right: '-700px'
+            }).stop().animate({
+                right: '0'
+            }, 600, 'easeOutExpo')
+        },
+        bannerHide: function (banner) {
+            banner.stop().animate({
+                right: '-700'
+            }, 600, 'easeOutExpo')
+        }
+    })
+    $('.pagination li').hover(function () {
+        if (!$(this).hasClass('current')) {
+            $(this).find('a').stop().animate({
+                backgroundPosition: '0 0'
+            }, 600, 'easeOutExpo', function () {
+                $(this).parent().css({
+                    backgroundPosition: '-20px 0'
+                })
+            });
+        }
+    }, function () {
+        if (!$(this).hasClass('current')) {
+            $(this).css({
+                backgroundPosition: '0 0'
+            }).find('a').stop().animate({
+                backgroundPosition: '-250px 0'
+            }, 600, 'easeOutExpo');
+        }
+    })
+})
+</script>
+ 
+ 
+</body>
+</html>
+
 """
 
 
