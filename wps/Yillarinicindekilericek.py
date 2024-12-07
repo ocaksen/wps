@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 # Hedef URL // Hangi siteden alacağını yaz
-base_url = 'https://www.thieme-connect.com/products/ejournals/issues/10.1055/s-00029030'
+base_url = 'https://www.thieme-connect.com/products/ejournals/issue/10.1055/s-007-34039'
 
 # Headers for requests
 headers = {
