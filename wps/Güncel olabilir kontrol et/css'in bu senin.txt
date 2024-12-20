@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipini ayarlayın */
+    line-height: 1.6; /* Satır yüksekliğini ayarlayın */
+    margin: 0; /* Sayfa kenar boşluğu */
+    padding: 100px; /* Sayfa iç kenar boşluğu */
+    display: flex; /* Esnek kutu düzeni */
+    justify-content: center; /* Yatayda ortalama */
+}
+
+.container {
+    max-width: 800px; /* Maksimum genişlik */
+    width: 100%; /* Tam genişlikte yayılma */
+}
+
+h2.Category {
+    color: #2c3e50; /* Başlık rengi */
+    margin-top: 20px; /* Üst kenar boşluğu */
+}
+
+h3.subCategory {
+    color: #34495e; /* Alt başlık rengi */
+}
+
+.listItem {
+    border: 1px solid #ddd; /* Kenarlık */
+    padding: 10px; /* İç kenar boşluğu */
+    margin: 10px 0; /* Dış kenar boşluğu */
+    border-radius: 5px; /* Kenar yuvarlama */
+    display: flex; /* Esnek kutu düzeni */
+    align-items: flex-start; /* Dikey hizalama üstte ayarla */
+}
+
+.pageNumber {
+    font-weight: bold; /* Kalın yazı */
+    font-size: 14px; /* Yazı boyutu */
+    margin-right: 20px; /* Sağ kenar boşluğu */
+    vertical-align: top; /* Dikey hizalamayı ayarla */
+    flex-shrink: 0; /* Sayfa numarasının küçülmesini önle */
+}
+
+.articleDetails {
+    flex-grow: 1; /* Diğer öğelerin genişlemesine izin ver */
+}
+
+.articleTitle {
+    font-weight: bold; /* Başlık kalın */
+    color: #2980b9; /* Başlık rengi */
+    text-decoration: none; /* Altı çizili olmaması */
+}
+
+.articleOptions ul {
+    list-style-type: none; /* Madde işaretlerini kaldır */
+    padding: 0; /* İçerik kenar boşluğunu sıfırla */
+    display: flex; /* Yan yana dizmek için */
+}
+
+.articleOptions .option {
+    display: inline-block; /* Yan yana göster */
+    margin-right: 20px; /* Sağ kenar boşluğu - Full Text ile HTML arasında boşluk */
+}
+
+.articleOptions .label {
+    font-weight: bold; /* Etiket kalın */
+}
+
+.articleOptions .option a {
+    color: #007bff; /* Bağlantı rengi */
+    text-decoration: none; /* Altı çizili olmaması */
+}
+
+.articleOptions .option a:hover {
+    text-decoration: underline; /* Hover'da altını çiz */
+}

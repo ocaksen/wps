@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal of Pediatric Biochemistry</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS dosyasını ekliyoruz -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Yazı tipi */
+            margin: 0; /* Varsayılan margin'i sıfırla */
+            padding: 0; /* Varsayılan padding'i sıfırla */
+            text-align: center; /* Metni ortala */
+        }
+        .issue-info {
+            margin: 20px 0; /* Üst ve alt kenar boşluğu */
+        }
+        .articleListing {
+            text-align: left; /* Makale listesini sola hizala */
+            max-width: 800px; /* Maksimum genişlik */
+            margin: auto; /* Ortada konumlandır */
+        }
+		
+
+
+        .articleTitle {
+            display: block;
+        }
+    </style>
+</head>
